@@ -12,5 +12,5 @@ app.use('/api', router);
 
 
 
-app.listen(port, () => console.log("listenin on 2000"));
+app.listen(port, () => console.log(`Listening on port: ${port}`));
 
